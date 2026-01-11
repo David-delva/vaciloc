@@ -1,0 +1,74 @@
+/**
+ * Category Cards Premium Design
+ */
+
+/* Couleurs par catégorie */
+.category-card:nth-child(1) .icon-wrapper {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.category-card:nth-child(2) .icon-wrapper {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.category-card:nth-child(3) .icon-wrapper {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.category-card:nth-child(4) .icon-wrapper {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.category-card:nth-child(5) .icon-wrapper {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.category-card:nth-child(6) .icon-wrapper {
+    background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+}
+
+/* Animation au hover par catégorie */
+.category-card:nth-child(1):hover .icon-wrapper {
+    box-shadow: 0 0 40px rgba(102, 126, 234, 0.6);
+}
+
+.category-card:nth-child(2):hover .icon-wrapper {
+    box-shadow: 0 0 40px rgba(240, 147, 251, 0.6);
+}
+
+.category-card:nth-child(3):hover .icon-wrapper {
+    box-shadow: 0 0 40px rgba(79, 172, 254, 0.6);
+}
+
+.category-card:nth-child(4):hover .icon-wrapper {
+    box-shadow: 0 0 40px rgba(67, 233, 123, 0.6);
+}
+
+.category-card:nth-child(5):hover .icon-wrapper {
+    box-shadow: 0 0 40px rgba(250, 112, 154, 0.6);
+}
+
+.category-card:nth-child(6):hover .icon-wrapper {
+    box-shadow: 0 0 40px rgba(48, 207, 208, 0.6);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .category-card .icon-wrapper {
+        width: 64px;
+        height: 64px;
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .category-card i {
+        font-size: 1.5rem;
+    }
+    
+    .category-card h3 {
+        font-size: 1rem;
+    }
+    
+    .category-card p {
+        font-size: 0.75rem;
+    }
+}
